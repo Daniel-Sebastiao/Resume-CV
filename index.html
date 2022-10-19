@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Document</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daniel Sebastião" />
+
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- CSS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet" -->
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="st-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Daniel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav_item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'>Home</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'>User</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-add nav__icon'>Education</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'>Skills</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'>Experience</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'>Certificates</i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'>Refereces</i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="st-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- ===> Home <=== -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="./assets/img/profile-pic-by.png" alt="Profile Picture" class="home__img">
+
+                            <h1 class="home__title">DANIEL <b>SEBASTIÃO</b></h1>
+                            <h3 class="home__profession">Web developer | Front-end Developer</h3>
+
+                            <!-- Buttom to download your cv saved in the pdf folder. Available for Desktop or mobile -->
+                            <div>
+                                <a download="" href="./assets/pdf/ResumeCV.pdf" class="home__button-movil">Download</a>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon">Luanda,Rangel. Rua 7</i>
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon">daniel.ds.sebastiao@gmail.com</i>
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon">(+244) 939-466-633</i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                    <!-- Button to generate and download the pdf. Available for Desktop or mobile -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+
+
+
+
+                <!-- ===> Social <=== -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://linkedin.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'>linkedin.com/in/daniel-sebastião-786024250</i>
+                        </a>
+                        <a href="https://facebook.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'>github.com/Daniel-Sebastiao</i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon' >@D4n13lN3ro</i>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- ===> Profile <=== -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        Self-taught for over 3 years, I´ve always had a great passion and curiosity for technology, and choosing the world of software devepment camme very naturally to me.
+                        I have been working independently as a developer for over 1 year, during this time I participated in several challenges and exercises that this world of software development brings us, using mainly technologies such as JavaScript, TypeScript, ReactJs and Node.js
+                    </p>
+                </section>
+
+                <!-- ===> Education <=== -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Connect</h3>
+                                <span class="education__studies">Rocketseat Institute</span>
+                                <span class="education__year">2022</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Fundamentals</h3>
+                                <span class="education__studies">Rocketseat Institute</span>
+                                <span class="education__year">2022</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Specialize</h3>
+                                <span class="education__studies">Rocketseat Institute</span>
+                                <span class="education__year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===> Skills <=== -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>Sass
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>JavaScript
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>ReactJs
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>Node.js
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">
+                                </span>TypeScript
+                            </li>
+                            <!-- <li class="skills__name">
+                                <span class="skills__circle">
+                                    JavaScript
+                                </span>
+                            </li> -->
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+
+                <!-- ===> Experience <=== -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Front-end</h3>
+                                <span class="experience__company">
+                                    Visa-clone | github.com/Daniel-Sebastiao/visa-clone/
+                                </span>
+                                <p class="experience__description">
+                                    Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Front-end</h3>
+                                <span class="experience__company">
+                                    To DO List | github.com/Daniel-Sebastiao/To-Do-List
+                                </span>
+                                <p class="experience__description">
+                                    Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Web Developer</h3>
+                                <span class="experience__company">
+                                    Node Farm | github.com/Daniel-Sebastiao/Node-Farm
+                                </span>
+                                <p class="experience__description">
+                                    Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===> Certificates <=== -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">certificate</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
+                            <p class="certificate__description">
+                                For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                            </p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified of attendance on computer technology </h3>
+                            <p class="certificate__description">
+                                For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                            </p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Achievementmedal for productivity excellence during the year (2019)</h3>
+                            <p class="certificate__description">
+                                For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===> References <=== -->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">
+                                Sr. Director
+                            </span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 939-466-633</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">
+                                Mag. Developer
+                            </span>
+                            <h3 class="references__title">Mr. Robbinson Bass</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 939-466-633</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===> Languages <=== -->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Portuguese
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- ===> Interests <=== -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon' ></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-book-alt interests__icon' ></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-dumbbell interests__icon' ></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scroll Top -->
+    <a href="" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scroll' ></i>
+    </a>
+
+    <!-- HTML2PDF -->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

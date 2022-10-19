@@ -1,0 +1,2 @@
+# Resume CV
+This is my resume cv, where you will be able to find all my information related to the market and not only will you find many of my qualities and skills whithin this mini project, I believe I have been clear about my concern with acessibility and user experience with this project and munch more.
